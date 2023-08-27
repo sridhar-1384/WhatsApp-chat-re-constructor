@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="chat-body">
+        <div class="chat-info">
+            <div class="chat-input">
+                <input type="file" accept=".txt">
+            </div>
+            <div class="chat-details">
+                <div class="you-name">
+                    You:
+                    <div class="name"></div>
+                </div>
+                <div class="other-name">
+                    Other:
+                    <div class="name"></div>
+                </div>
+                <div class="buttons">
+                    <i id="generate-btn" class="fa-solid fa-check"></i>
+                    <i id="swap-btn" class="fa-solid fa-arrows-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="chat-area">
+            <div class="top">
+                <i id="other-img" class="fa-solid fa-user fa-lg"></i>
+                <div id="other-img-name">User</div>
+            </div>
+            <div class="chat-box">
+                <div class="chat-msg left">
+                    Your chat appears here.....
+                    <div class="chat-time">00:00</div>
+                </div>
+            </div>
+            <div class="foot">
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
